@@ -1,4 +1,6 @@
-# Project vue-f1-app setup
+# vue-f1-app
+
+### Setup
 ```
 npm install
 ```
