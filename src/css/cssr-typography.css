@@ -1,0 +1,129 @@
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+span,
+figcaption {
+    position: relative;
+}
+
+/* ==========================================================================
+   material icons
+   ========================================================================== */
+
+@font-face {
+    font-family: 'material-icons';
+    src: url('./fonts/material-icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-block {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 72px;
+    transition: 0.2s all ease;
+    border-bottom: 4px solid var(--color-green-a);
+}
+
+.router-link-exact-active {
+    border-bottom: 4px solid var(--color-green);
+}
+
+.force-router-link--active {
+    border-bottom: 4px solid var(--color-green);
+}
+
+.icon-link {
+    color: #92a1b1;
+    cursor: pointer;
+}
+
+.icon-link:hover {
+    color: #ffffff;
+}
+
+.router-link-exact-active .icon-link {
+    color: #ffffff;
+}
+  
+.router-link-exact-active .icon-link:hover {
+    color: #ffffff;
+}
+  
+.icon {
+    font-family: 'material-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class*="icon-"]:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    transition: 0.1s all linear;
+ }
+
+.icon-person:before {
+    content: "\e902";
+    font-size: 24px;
+}
+
+.icon-trophy:before {
+    content: "\e99e";
+    font-size: 19px;
+}
+
+.icon-arrow_left:before {
+    content: "\e314";
+    font-size: 28px;
+}
+
+.icon-timer-1:before {
+    content: "\e425";
+}
+
+.icon-timer-2:before {
+    content: "\e8b5";
+}
+
+.icon-globe:before {
+    content: "\e80b";
+}

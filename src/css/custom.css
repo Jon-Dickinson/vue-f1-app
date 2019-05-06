@@ -1,0 +1,181 @@
+/* ==========================================================================
+   Global - custom classes
+   ========================================================================== */
+
+.bg-image {
+  position: relative;
+  width: 100%;
+  background-image: url('../assets/race-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.body-wrapper {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.router-wrapper {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+
+.interface {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.data-block {
+  position: relative;
+  display: inline-flex;
+  width: 100%;
+  padding: 10px 20px;
+  margin: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+
+  .bg-image {
+    background-image: none;
+  }
+
+  .router-wrapper .flex-mid-container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .icon-block {
+    margin: 0;
+  }
+
+}
+
+/* 2005 - 2015 Champions */
+
+[season="2005"] .season-panel:nth-child(2),
+[season="2005"] .season-panel:nth-child(3),
+[season="2005"] .season-panel:nth-child(4),
+[season="2005"] .season-panel:nth-child(7),
+[season="2005"] .season-panel:nth-child(10),
+[season="2005"] .season-panel:nth-child(12),
+[season="2005"] .season-panel:nth-child(19) {
+  background-color: var(--color-race-red);
+}
+
+[season="2006"] .season-panel:nth-child(1),
+[season="2006"] .season-panel:nth-child(3),
+[season="2006"] .season-panel:nth-child(6),
+[season="2006"] .season-panel:nth-child(7),
+[season="2006"] .season-panel:nth-child(8),
+[season="2006"] .season-panel:nth-child(9),
+[season="2006"] .season-panel:nth-child(17) {
+  background-color: var(--color-race-red);
+}
+
+[season="2007"] .season-panel:nth-child(1),
+[season="2007"] .season-panel:nth-child(8),
+[season="2007"] .season-panel:nth-child(9),
+[season="2007"] .season-panel:nth-child(14),
+[season="2007"] .season-panel:nth-child(16),
+[season="2007"] .season-panel:nth-child(17) {
+  background-color: var(--color-race-red);
+}
+
+[season="2008"] .season-panel:nth-child(1),
+[season="2008"] .season-panel:nth-child(6),
+[season="2008"] .season-panel:nth-child(9),
+[season="2008"] .season-panel:nth-child(10),
+[season="2008"] .season-panel:nth-child(17) { 
+  background-color: var(--color-race-red);
+}
+
+[season="2009"] .season-panel:nth-child(1),
+[season="2009"] .season-panel:nth-child(2),
+[season="2009"] .season-panel:nth-child(4),
+[season="2009"] .season-panel:nth-child(5),
+[season="2009"] .season-panel:nth-child(6),
+[season="2009"] .season-panel:nth-child(7) {
+  background-color: var(--color-race-red);
+}
+
+[season="2010"] .season-panel:nth-child(3),
+[season="2010"] .season-panel:nth-child(9),
+[season="2010"] .season-panel:nth-child(16),
+[season="2010"] .season-panel:nth-child(18),
+[season="2010"] .season-panel:nth-child(19) {
+  background-color: var(--color-race-red);
+}
+
+[season="2011"] .season-panel:nth-child(1),
+[season="2011"] .season-panel:nth-child(2),
+[season="2011"] .season-panel:nth-child(4),
+[season="2011"] .season-panel:nth-child(5),
+[season="2011"] .season-panel:nth-child(6),
+[season="2011"] .season-panel:nth-child(8),
+[season="2011"] .season-panel:nth-child(12),
+[season="2011"] .season-panel:nth-child(13),
+[season="2011"] .season-panel:nth-child(14),
+[season="2011"] .season-panel:nth-child(16),
+[season="2011"] .season-panel:nth-child(17) {
+  background-color: var(--color-race-red);
+}
+
+[season="2012"] .season-panel:nth-child(4),
+[season="2012"] .season-panel:nth-child(14),
+[season="2012"] .season-panel:nth-child(15),
+[season="2012"] .season-panel:nth-child(16),
+[season="2012"] .season-panel:nth-child(17) {
+  background-color: var(--color-race-red);
+}
+
+[season="2013"] .season-panel:nth-child(2),
+[season="2013"] .season-panel:nth-child(4),
+[season="2013"] .season-panel:nth-child(7),
+[season="2013"] .season-panel:nth-child(9),
+[season="2013"] .season-panel:nth-child(11),
+[season="2013"] .season-panel:nth-child(12),
+[season="2013"] .season-panel:nth-child(13),
+[season="2013"] .season-panel:nth-child(14),
+[season="2013"] .season-panel:nth-child(15),
+[season="2013"] .season-panel:nth-child(16),
+[season="2013"] .season-panel:nth-child(17),
+[season="2013"] .season-panel:nth-child(18),
+[season="2013"] .season-panel:nth-child(19) {
+  background-color: var(--color-race-red);
+}
+
+[season="2014"] .season-panel:nth-child(2),
+[season="2014"] .season-panel:nth-child(3),
+[season="2014"] .season-panel:nth-child(4),
+[season="2014"] .season-panel:nth-child(5),
+[season="2014"] .season-panel:nth-child(9),
+[season="2014"] .season-panel:nth-child(13),
+[season="2014"] .season-panel:nth-child(14),
+[season="2014"] .season-panel:nth-child(15),
+[season="2014"] .season-panel:nth-child(16),
+[season="2014"] .season-panel:nth-child(17),
+[season="2014"] .season-panel:nth-child(19) {
+  background-color: var(--color-race-red);
+}
+
+[season="2015"] .season-panel:nth-child(1),
+[season="2015"] .season-panel:nth-child(3),
+[season="2015"] .season-panel:nth-child(4),
+[season="2015"] .season-panel:nth-child(7),
+[season="2015"] .season-panel:nth-child(9),
+[season="2015"] .season-panel:nth-child(11),
+[season="2015"] .season-panel:nth-child(12),
+[season="2015"] .season-panel:nth-child(14),
+[season="2015"] .season-panel:nth-child(15),
+[season="2015"] .season-panel:nth-child(16) {
+  background-color: var(--color-race-red);
+}
