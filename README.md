@@ -3,36 +3,34 @@
 npm install
 ```
 
-## Development
------------------
+### Development
 
-### Compiles and hot-reloads for development
+Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Lints and fixes files
+Lints and fixes files
 ```
 npm run lint
 ```
 
-## Production
------------------
+### Production
 
-### Preview production build locally using a Node.js static file server
+Preview production build locally using a Node.js static file server
 ```
 npm install -g serve
 ```
 
-### Compiles and minifies for production
+Compiles and minifies for production
 ```
 npm run build
 ```
 
-### -s flag means serve it in Single-Page Application mode
+-s flag means serve it in Single-Page Application mode
 ```
 serve -s dist
 ```
 
-## Customize config
+### Customize config
 See [Configuration Reference](https://cli.vuejs.org/config/).
