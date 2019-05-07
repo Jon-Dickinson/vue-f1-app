@@ -1,9 +1,10 @@
 module.exports = {
-    configureWebpack: config => {
-        if (process.env.NODE_ENV === 'production') {
-            publicPath: './'
+    chainWebpack: config => {
+        config;
+        if (process.env.NODE_ENV === "production") {
+            ("./");
         } else {
             // mutate for development...
         }
     }
-}
+};
